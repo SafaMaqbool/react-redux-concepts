@@ -10,5 +10,9 @@ switch(action.type){
             ...state,
             cardData: action.Data
         }
+        default:
+            return state
 }
 }
+
+export default cardItems;
